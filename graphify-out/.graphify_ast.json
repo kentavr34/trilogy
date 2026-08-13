@@ -1,0 +1,182 @@
+{
+ "nodes": [
+  {
+   "id": "sync_to_github",
+   "label": ".sync_to_github.py",
+   "file_type": "code",
+   "source_file": ".sync_to_github.py",
+   "source_location": "L1",
+   "_origin": "ast"
+  },
+  {
+   "id": "источники_версия_05_2026_03_28_cowork_прочее_shim",
+   "label": "shim.sh",
+   "file_type": "code",
+   "source_file": "ИСТОЧНИКИ/ВЕРСИЯ_05_2026-03-28_Cowork/_ПРОЧЕЕ/shim.sh",
+   "source_location": "L1",
+   "metadata": {
+    "language": "bash",
+    "kind": "file"
+   },
+   "_origin": "ast"
+  },
+  {
+   "id": "источники_версия_05_2026_03_28_cowork_прочее_shim_sh__entry",
+   "label": "shim.sh script",
+   "file_type": "code",
+   "source_file": "ИСТОЧНИКИ/ВЕРСИЯ_05_2026-03-28_Cowork/_ПРОЧЕЕ/shim.sh",
+   "source_location": "L1",
+   "metadata": {
+    "language": "bash",
+    "kind": "bash_entrypoint"
+   },
+   "_origin": "ast"
+  },
+  {
+   "id": "источники_версия_05_2026_03_28_cowork_прочее_shim_cowork_require_token",
+   "label": "cowork_require_token()",
+   "file_type": "code",
+   "source_file": "ИСТОЧНИКИ/ВЕРСИЯ_05_2026-03-28_Cowork/_ПРОЧЕЕ/shim.sh",
+   "source_location": "L33",
+   "metadata": {
+    "language": "bash",
+    "kind": "bash_function"
+   },
+   "_origin": "ast"
+  },
+  {
+   "id": "источники_версия_05_2026_03_28_cowork_прочее_shim_cowork_gate",
+   "label": "cowork_gate()",
+   "file_type": "code",
+   "source_file": "ИСТОЧНИКИ/ВЕРСИЯ_05_2026-03-28_Cowork/_ПРОЧЕЕ/shim.sh",
+   "source_location": "L70",
+   "metadata": {
+    "language": "bash",
+    "kind": "bash_function"
+   },
+   "_origin": "ast"
+  },
+  {
+   "id": "источники_версия_05_2026_03_28_cowork_прочее_shim_cowork_exec",
+   "label": "cowork_exec()",
+   "file_type": "code",
+   "source_file": "ИСТОЧНИКИ/ВЕРСИЯ_05_2026-03-28_Cowork/_ПРОЧЕЕ/shim.sh",
+   "source_location": "L152",
+   "metadata": {
+    "language": "bash",
+    "kind": "bash_function"
+   },
+   "_origin": "ast"
+  }
+ ],
+ "edges": [
+  {
+   "source": "sync_to_github",
+   "target": "os",
+   "relation": "imports",
+   "context": "import",
+   "confidence": "EXTRACTED",
+   "source_file": ".sync_to_github.py",
+   "source_location": "L7",
+   "weight": 1.0,
+   "_origin": "ast"
+  },
+  {
+   "source": "sync_to_github",
+   "target": "subprocess",
+   "relation": "imports",
+   "context": "import",
+   "confidence": "EXTRACTED",
+   "source_file": ".sync_to_github.py",
+   "source_location": "L7",
+   "weight": 1.0,
+   "_origin": "ast"
+  },
+  {
+   "source": "sync_to_github",
+   "target": "shutil",
+   "relation": "imports",
+   "context": "import",
+   "confidence": "EXTRACTED",
+   "source_file": ".sync_to_github.py",
+   "source_location": "L7",
+   "weight": 1.0,
+   "_origin": "ast"
+  },
+  {
+   "source": "sync_to_github",
+   "target": "sys",
+   "relation": "imports",
+   "context": "import",
+   "confidence": "EXTRACTED",
+   "source_file": ".sync_to_github.py",
+   "source_location": "L7",
+   "weight": 1.0,
+   "_origin": "ast"
+  },
+  {
+   "source": "sync_to_github",
+   "target": "datetime",
+   "relation": "imports_from",
+   "context": "import",
+   "confidence": "EXTRACTED",
+   "source_file": ".sync_to_github.py",
+   "source_location": "L8",
+   "weight": 1.0,
+   "_origin": "ast"
+  },
+  {
+   "source": "sync_to_github",
+   "target": "glob",
+   "relation": "imports",
+   "context": "import",
+   "confidence": "EXTRACTED",
+   "source_file": ".sync_to_github.py",
+   "source_location": "L68",
+   "weight": 1.0,
+   "_origin": "ast"
+  },
+  {
+   "source": "источники_версия_05_2026_03_28_cowork_прочее_shim",
+   "target": "источники_версия_05_2026_03_28_cowork_прочее_shim_sh__entry",
+   "relation": "contains",
+   "confidence": "EXTRACTED",
+   "source_file": "ИСТОЧНИКИ/ВЕРСИЯ_05_2026-03-28_Cowork/_ПРОЧЕЕ/shim.sh",
+   "source_location": "L1",
+   "weight": 1.0,
+   "_origin": "ast"
+  },
+  {
+   "source": "источники_версия_05_2026_03_28_cowork_прочее_shim",
+   "target": "источники_версия_05_2026_03_28_cowork_прочее_shim_cowork_require_token",
+   "relation": "defines",
+   "confidence": "EXTRACTED",
+   "source_file": "ИСТОЧНИКИ/ВЕРСИЯ_05_2026-03-28_Cowork/_ПРОЧЕЕ/shim.sh",
+   "source_location": "L33",
+   "weight": 1.0,
+   "_origin": "ast"
+  },
+  {
+   "source": "источники_версия_05_2026_03_28_cowork_прочее_shim",
+   "target": "источники_версия_05_2026_03_28_cowork_прочее_shim_cowork_gate",
+   "relation": "defines",
+   "confidence": "EXTRACTED",
+   "source_file": "ИСТОЧНИКИ/ВЕРСИЯ_05_2026-03-28_Cowork/_ПРОЧЕЕ/shim.sh",
+   "source_location": "L70",
+   "weight": 1.0,
+   "_origin": "ast"
+  },
+  {
+   "source": "источники_версия_05_2026_03_28_cowork_прочее_shim",
+   "target": "источники_версия_05_2026_03_28_cowork_прочее_shim_cowork_exec",
+   "relation": "defines",
+   "confidence": "EXTRACTED",
+   "source_file": "ИСТОЧНИКИ/ВЕРСИЯ_05_2026-03-28_Cowork/_ПРОЧЕЕ/shim.sh",
+   "source_location": "L152",
+   "weight": 1.0,
+   "_origin": "ast"
+  }
+ ],
+ "input_tokens": 0,
+ "output_tokens": 0
+}

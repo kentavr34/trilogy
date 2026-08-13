@@ -1,0 +1,18 @@
+/ILLUMINANT/
+├── CANON/
+│   ├── WORLD_BIBLE_MASTER.md
+│   ├── TRILOGY_SCENE_SKELETON.md
+│   ├── BOOK_HEADING_THESES.md
+│   ├── STYLE_CODEX.md
+│   ├── CHRONOLOGY.md
+│   └── WORKFLOW_PROTOCOL.md
+├── CHAPTERS/BOOK_1/
+│   ├── 00_PROLOG.md
+│   ├── 01_SHARAM_NA_SERDTSE.md
+│   ├── 02_PROFESSIONAL_MASK.md
+│   ├── 03_EVA_AND_LILI.md
+│   ├── 04_AUKCION_MILOSERDIYA.md
+│   └── 05_SLEDY_DEMONICHESKOY_SILY.md
+├── NOTES/
+│   └── MY_WORKING_NOTES.md
+└── ARCHIVE/

@@ -1,8 +1,8 @@
-# Конфиг с токеном — никогда не коммитить
-.github_config
-.sync_to_github.py
-
-# Системные файлы
-.DS_Store
-Thumbs.db
-*.tmp
+# внутренние детали — не публиковать в публичный репозиторий (постановка Кенана)
+RULES/ЧАТ_ДИАЛОГ.md
+RULES/ILLUMINANT_PROJECT_FULL_CONTEXT.json
+**/.audit-key
+**/.github_config
+**/.claude.json*
+**/*.jsonl
+.claude/
